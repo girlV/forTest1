@@ -6,10 +6,8 @@ class Person:
         self.age = age
         self.name = name
         self.ves = ves
-        per = 0
 
     def printinfo(self):
-
         print("Name:", self.name, " ", "Age:", self.age, " ", "Ves:", self.ves)
 
 
@@ -18,7 +16,6 @@ class Iterator:
 
         list = ["Vasya", "Masha", "Jenya", "Anton", "Julia", "Oleg"]
         for i in list:
-
             person = Person(random.randint(15, 80), i, random.randint(45, 90))
             person.printinfo()
 
